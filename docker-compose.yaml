@@ -1,0 +1,15 @@
+services:
+  scrape_with_python:
+    build: .
+    image: scrape_with_python
+    container_name: scrape_with_python
+    environment:
+      - "ENVIRONMENT=LOCAL"
+    ports:
+      - "4444:4444"
+      - "7900:7900"
+    working_dir: /workspace
+    volumes:
+      - /d/My_projects/scrape_with_python:/workspace
+      # Above mount path is Windows path
+    shm_size: "2gb"

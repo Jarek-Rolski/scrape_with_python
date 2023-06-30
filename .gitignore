@@ -1,0 +1,12 @@
+# mac stuff
+.DS_Store
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# python compilation files
+__pycache__/
+*.pyc 
+
+# data folder
+/data/
