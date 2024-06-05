@@ -27,3 +27,4 @@ Install extension
 ```
 
 In order to open container browser open in browser link: http://localhost:7900/
+Password: secret
